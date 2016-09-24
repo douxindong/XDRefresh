@@ -1,7 +1,7 @@
 # XDRefresh
 自定义下拉刷新控件
 ![http://ww3.sinaimg.cn/mw690/afa9a093gw1f857zyh7ueg208w0gidui.gif](http://ww3.sinaimg.cn/mw690/afa9a093gw1f857zyh7ueg208w0gidui.gif)
-//
+#--------
 //  XDRefreshView.h
 //  下拉刷新－自定义
 //
