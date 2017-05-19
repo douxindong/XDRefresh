@@ -1,7 +1,15 @@
-# XDRefresh
-自定义下拉刷新控件
-![http://ww3.sinaimg.cn/mw690/afa9a093gw1f857zyh7ueg208w0gidui.gif](http://ww3.sinaimg.cn/mw690/afa9a093gw1f857zyh7ueg208w0gidui.gif)
-#--------
+下拉刷新效果图
+
+![2d8378308241886d851cc34098d05490.gif](http://upload-images.jianshu.io/upload_images/3729815-d78fbc23f68136f3.gif?imageMogr2/auto-orient/strip)
+![代码结构](http://upload-images.jianshu.io/upload_images/3729815-8021c09c76edfb15.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+```
+//  XDRefreshView.h
+```
+```
+//  XDRefreshView.m
+```
+```
 //  XDRefreshView.h
 //  下拉刷新－自定义
 //
@@ -18,7 +26,8 @@
 - (void)endRefreshing;
 
 @end
-
+```
+```
 //
 //  XDRefreshView.m
 //  下拉刷新－自定义
@@ -217,6 +226,31 @@ typedef enum{
 }
 
 @end
+```
+```
+//  XDRefreshTableViewController.h
+```
+```
+//  XDRefreshTableViewController.m
+```
+
+```
+
+//
+//  XDRefreshTableViewController.h
+//  下拉刷新－自定义
+//
+//  Created by 窦心东 on 16/9/24.
+//  Copyright © 2016年 窦心东. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface XDRefreshTableViewController : UITableViewController
+
+@end
+```
+```
 //
 //  XDRefreshTableViewController.m
 //  下拉刷新－自定义
@@ -301,4 +335,14 @@ typedef enum{
     return cell;
 }
 
+
+
 @end
+
+```
+
+效果图
+
+![2d8378308241886d851cc34098d05490.gif](http://upload-images.jianshu.io/upload_images/3729815-d78fbc23f68136f3.gif?imageMogr2/auto-orient/strip)
+
+项目地址：https://github.com/douxindong/XDRefresh.git
